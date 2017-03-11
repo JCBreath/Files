@@ -65,9 +65,10 @@
 
 \maketitle % Print the title
 
-\subsection*{Problem 1: Graph Encodings}
+\subsection*{Problem 1: Undecidability}
 \begin{enumerate}[label=(\alph*)]
-	\item $\langle G\rangle =\$1:2|2:3|2:6|2:7|3:4|3:5$
+	\item Assuming $A$ is a decidable language. A Turing Machine $M$ must halts on any inputs, if it decides A.  \\
+		  However, $M$ is only required to halt at $\epsilon$. Therefore, $A$ is undecidable.
 	\item Suppose $G_1$,$G_2\in G(V_n)$ and $\langle G_1 \rangle = \langle G_2 \rangle$ \\
 	Then we can say $G_1=G_2$ as they have the same set of edges.\\
 	Hence, $\langle G\rangle$ is injective.
