@@ -1,3 +1,4 @@
-This Repository Only Save Files for PUBLIC USE.
-
-DO NOT UPLOAD PERSONAL FILE HERE
+#### 4/24/2018
+* Slim Configuration
+** /etc/slim.conf
+** /usr/share/slim/themes
